@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --brand-green:#159937;
+    --brand-dark:#1f2d3d;
+    --soft-bg:#f4f8f7;
+}
+body{
+    color: var(--brand-dark);
+    font-family: "Montserrat", sans-serif;
+}
+.navbar-brand{
+    color: var(--brand-green);
+    font-size: 1.4rem;
+}
+.navbar-brand:hover{
+    color: #147c2e;
+}
+#dark-title{
+    color: var(--brand-dark);
+}
+.nav-link{
+    color:#536171 !important;
+}
+.nav-link:hover , .nav-link.active{
+    color: var(--brand-green) !important;
+}
+.hero{
+    padding: 3.5rem;
+    background: linear-gradient(120deg , #f7faf9, #edf3f1)
+}
+.top-title{
+    color: var(--brand-green);
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.hero h1{
+    line-height:1.2 ;
+
+}
+.section-heading h2{
+    /* margin-bottom: 0.3rem; */
+}
+.col-sm-6 {
+    border-color:#e5e9ec ;
+    transition: transform 0.2 ease , box shadow 0.2s ease;
+}
+.col-sm-6:hover{
+    transform:translateY(-5px);
+}
+.about-section{
+    background-color: var(--soft-bg);
+}
+.about-section i{
+    color: var(--brand-green);
+    font-size: 2.5rem;
+}
+/* TODO CENTER */
+.about-section p{
+   max-width:600px;
+   margin: auto;
+}
+.footer{
+    background: #263342;
+    color:white;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.copyright{
+    background: #1d2733;
+}
+
